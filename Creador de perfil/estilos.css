@@ -1,0 +1,12 @@
+.botoneslol{
+	display: flex;
+	justify-content: flex-end;
+}
+.personaje{
+	text-align: center;
+}
+ .cuack{
+ 	display: flex;
+ 	flex-direction: column;
+ }
+  
