@@ -95,11 +95,11 @@
 </div>
 <div class="form-group">
     <label for="exampleInputPassword1">Peso</label>
-    <input type="Number" class="form-control" id="exampleInputPassword1" placeholder="Kg">
+    <input id="masa" type="Number" class="form-control" id="exampleInputPassword1" placeholder="Kg">
   </div>
 <div class="form-group">
     <label for="exampleInputPassword1">Altura</label>
-    <input type="Number" class="form-control" id="exampleInputPassword1" placeholder="Cm">
+    <input id="altura" type="Number" class="form-control" id="exampleInputPassword1" placeholder="m">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Edad</label>
@@ -112,20 +112,22 @@
     <label for="exampleInputPassword1">Nombre</label>
     <input type="text" class="form-control" id="exampleInputPassword1">
   </div>
-<img id="" src="" alt="" width="220" height="277">
+<!-- <img id="" src="" alt="" width="220" height="277"> -->
 
-<canvas id="miCanvas" width="250" height="300"
-style="border:1px solid #d3d3d3;">
+<canvas class= "canvas" id="miCanvas" width="250" height="300"
+>
 Your browser does not support the HTML5 canvas tag.</canvas>
 
-<p><button onclick="myCanvas()">Try it</button></p>
 
     </div>
     </div>
   </div>
 
-<button type="button" class="btn btn-dark">Tira los dados</button> 
-   
+<img src="https://cdn.pixabay.com/photo/2017/08/31/04/01/d20-2699387_960_720.png" id="dado" class="dado">  
+<h1>Tu indice de masa corporal es:</h1>
+   <h2 id="resultado"></h2>
+
+<script type="text/javascript" src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
