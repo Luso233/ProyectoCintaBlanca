@@ -8,15 +8,22 @@ border:1px solid black;
 .personaje{
 	text-align: center;
 }
- .cuack{
+ .derecha{
  	display: flex;
  	flex-direction: column;
  	align-items: center;
  }
  .dado{
- 	height: 50px;
- 	width: 50px;
+ 	height: 80px;
+ 	width: 80px;
+ 	align-self: flex-end;
  }
  button{
  	background-color: red !important;
  }
+ .izquierda{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ }
+ 
