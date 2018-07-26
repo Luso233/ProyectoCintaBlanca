@@ -1,3 +1,18 @@
+/*Paleta de Color:
+Naranja: #f35539
+Negro azul: #060A10
+Cafesito: #E7CFA0 
+Cafe: #99432D  */
+
+
+
+/** {background: #f35539}*/
+
+.background { 
+	color: #f35539;
+
+}
+
 .canvas{
 border:1px solid black;
 }
@@ -6,7 +21,9 @@ border:1px solid black;
 	justify-content: flex-end;
 }
 .personaje{
+
 	text-align: center;
+	color:#E7CFA0 ;
 }
  .derecha{
  	display: flex;
@@ -19,6 +36,7 @@ border:1px solid black;
  	align-self: flex-end;
  }
  button{
+<<<<<<< HEAD
  	background-color: red !important;
  }
  .izquierda{
@@ -27,3 +45,7 @@ border:1px solid black;
  	justify-content: space-between;
  }
  
+=======
+ 	background-color: #060A10 !important;
+ }
+>>>>>>> ba0a4733d12f1d7445e02e6b3762ac22c29b9288
