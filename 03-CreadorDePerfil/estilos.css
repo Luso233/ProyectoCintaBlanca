@@ -35,17 +35,11 @@ border:1px solid black;
  	width: 80px;
  	align-self: flex-end;
  }
- button{
-<<<<<<< HEAD
- 	background-color: red !important;
- }
+ 
+ 
  .izquierda{
  	display: flex;
  	flex-direction: column;
  	justify-content: space-between;
  }
- 
-=======
- 	background-color: #060A10 !important;
- }
->>>>>>> ba0a4733d12f1d7445e02e6b3762ac22c29b9288
+
