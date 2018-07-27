@@ -13,13 +13,8 @@ Cafe: #99432D  */
 
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url("../FrancoisOne.ttf");
-}
-
 .canvas{
-border:1px solid black;
+border:2px solid #343a40;
 
 }
 .botoneslol{
@@ -28,7 +23,6 @@ border:1px solid black;
 }
 .personaje{
 
-	font-family: "myFirstFont";
 	text-align: center;
 	color:#E7CFA0 ;
 }
@@ -36,6 +30,7 @@ border:1px solid black;
  	display: flex;
  	flex-direction: column;
  	align-items: center;
+
  }
  .dado{
  	height: 80px;
@@ -46,6 +41,7 @@ border:1px solid black;
  	display: flex;
  	flex-direction: column;
  	justify-content: space-between;
+border:2px solid #343a40;
  }
  .hombre{
 	display: none;
@@ -57,4 +53,6 @@ border:1px solid black;
 	width: 220px;
 	height: 277px;
 }
-
+.ewe {
+	height: 50px;
+}
