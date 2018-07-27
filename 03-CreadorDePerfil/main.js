@@ -17,14 +17,20 @@ Dado.addEventListener ("click",() =>{
 // }
 })
 
-let MiCanvas() {
+function miCanvas1() {
     let c = document.getElementById("miCanvas");
     let ctx = c.getContext("2d");
     let guerrero = document.getElementById("macho");
-    let guerrera = document.getElementById("hembra");
-    let Genero = document.getElementById("sexo");
-    if (sexo = "hombre") {}
-   ctx.drawImage(guerrero,10,10);
-else
-	ctx.drawImage(guerrera,10,10);
+    ctx.clearRect(0, 0, 250, 300);
+    ctx.drawImage(macho,10,10);
 }
+function miCanvas2() {
+    let c = document.getElementById("miCanvas");
+    let ctx = c.getContext("2d");
+    let guerrera = document.getElementById("hembra");
+    ctx.clearRect(0, 0, 250, 300);
+    ctx.drawImage(hembra,10,10);
+}
+
+
+  

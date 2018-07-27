@@ -20,6 +20,7 @@ Cafe: #99432D  */
 
 .canvas{
 border:1px solid black;
+
 }
 .botoneslol{
 	display: flex;
@@ -46,3 +47,14 @@ border:1px solid black;
  	flex-direction: column;
  	justify-content: space-between;
  }
+ .hombre{
+	display: none;
+	width: 220px;
+	height: 277px;
+}
+.mujer{
+	display: none;
+	width: 220px;
+	height: 277px;
+}
+
