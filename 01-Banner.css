@@ -5,19 +5,12 @@
 	align-items: center;
 	width: 700px;
 	height: 600px;
-	/*border: 1px solid;*/
-
+	border: 1px solid;
 }
-
-@font-face {
-    font-family: myFirstFont;
-    src: url("../FrancoisOne.ttf");
-}
-
 .bienvenido {
 	
 	
-	font-family: "myFirstFont";
+	font-family: "roboto";
 	color: gray;
 	
     text-align: center;
@@ -25,13 +18,8 @@
 }
 
 .puerco {
-<<<<<<< HEAD
-	width: 200px;
-	height: 300px;
-=======
 	width: 250px;
 	height: 350px;
->>>>>>> d227d90920e8ebffa0ace68cbb93dc1590bda195
 }
 
 .adelante {
