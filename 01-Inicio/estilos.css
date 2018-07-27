@@ -18,8 +18,8 @@
 }
 
 .puerco {
-	width: 300px;
-	height: 400px;
+	width: 250px;
+	height: 350px;
 }
 
 .adelante {
@@ -36,3 +36,7 @@ padding-right:50px;
 display: flex;
 justify-content: center;
 }
+.dado{
+ 	height: 80px;
+ 	width: 80px;
+ }
