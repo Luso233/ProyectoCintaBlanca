@@ -74,9 +74,9 @@
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Sexo
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="sexo">
-    <a class="dropdown-item" href="#">Hombre</a>
-    <a class="dropdown-item" href="#">Mujer</a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <button onclick="miCanvas1()" id="hombre" class="dropdown-item"href="#" type="button" >Hombre</a>
+    <button onclick="miCanvas2()" id="mujer" class="dropdown-item"href="#" type="button" >Mujer</a>
   </div>
 </div>
       
@@ -84,11 +84,11 @@
   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Tipo de cuerpo
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Delgado</a>
-    <a class="dropdown-item" href="#">Promedio</a>
-    <a class="dropdown-item" href="#">Fornido</a>
-    <a class="dropdown-item" href="#">Gordo</a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="sexo">
+    <button class="dropdown-item" href="#" type="button" >Delgado</button>
+    <button class="dropdown-item" href="#" type="button" >Promedio</button>
+    <button class="dropdown-item" href="#" type="button" >Fornido</button>
+    <button class="dropdown-item" href="#" type="button" >Gordo</button>
   </div>
 </div>
 
@@ -97,10 +97,10 @@
     Nivel de actividad fisica actual
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Nunca</a>
-    <a class="dropdown-item" href="#">1-3 dias a la semana</a>
-    <a class="dropdown-item" href="#">4-5 dias a la semana</a>
-    <a class="dropdown-item" href="#">Todos los dias</a>
+    <button class="dropdown-item" href="#" type="button" >Nunca</button>
+    <button class="dropdown-item" href="#" type="button" >1-3 dias a la semana</button>
+    <button class="dropdown-item" href="#" type="button" >4-5 dias a la semana</button>
+    <button class="dropdown-item" href="#" type="button" >Todos los dias</button>
   </div>
 </div>
 <div class="form-group">
@@ -122,8 +122,8 @@
     <label for="exampleInputPassword1">Nombre</label>
     <input type="text" class="form-control" id="exampleInputPassword1">
   </div>
-<img class= "hombre" id="macho" src="Guerrero.png" alt="" width="220" height="277">
-<img class= "mujer" id="hembra" src="guerrera.png" alt="" width="220" height="277">
+<img class= "hombre" id="macho" src="Guerrero.png" alt="">
+<img class= "mujer" id="hembra" src="guerrera.png" alt="">
 <canvas class= "canvas" id="miCanvas" width="250" height="300"
 >
 Your browser does not support the HTML5 canvas tag.</canvas>
@@ -135,11 +135,11 @@ Your browser does not support the HTML5 canvas tag.</canvas>
 
 
 
-<script type="text/javascript" src="main.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-
+<script type="text/javascript" src="main.js"></script>
     
 
   </body>

@@ -1,3 +1,8 @@
+.background { 
+	color: #f35539;
+
+}
+
 .botoneslol{
 	display: flex;
 	justify-content: flex-end;
