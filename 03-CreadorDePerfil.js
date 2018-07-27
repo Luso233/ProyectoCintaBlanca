@@ -6,15 +6,15 @@ let total = 0;
 Dado.addEventListener ("click",() =>{
 	console.log ("Si hizo click")
 	total=Number(Masa.value)/Number((Altura.value)*(Altura.value))
-// if (total >=18 && total<=25) {
-// 	window.location.replace("");
-// }else if (total >=26 && total<=30){
-// 	window.location.replace("");
-// }else if (total >=31){
-// 	window.location.replace("");
-// }else if (total <18){
-// 	window.location.replace("");
-// }
+if (total >=18 && total<=25) {
+	window.location.replace("04-Mision-3.html");
+}else if (total >=26 && total<=30){
+	window.location.replace("04-Mision-2.html");
+}else if (total >=31){
+	window.location.replace("04-Mision-1.html");
+}else if (total <18){
+	window.location.replace("04-Mision-1.html");
+}
 })
 
 function miCanvas1() {
