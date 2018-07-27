@@ -12,6 +12,10 @@ Cafe: #99432D  */
 	color: #f35539;
 
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url("../FrancoisOne.ttf");
+}
 
 .canvas{
 border:2px solid #343a40;
@@ -22,7 +26,8 @@ border:2px solid #343a40;
 	justify-content: flex-end;
 }
 .personaje{
-
+font-family: "myFirstFont";
+color:#E7CFA0 ;
 	text-align: center;
 	color:#E7CFA0 ;
 }

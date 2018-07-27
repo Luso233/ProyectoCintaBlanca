@@ -5,12 +5,15 @@
 	align-items: center;
 	width: 700px;
 	height: 600px;
-	border: 1px solid;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("../FrancoisOne.ttf");
 }
 .bienvenido {
 	
 	
-	font-family: "roboto";
+	font-family: "myFirstFont";
 	color: gray;
 	
     text-align: center;
