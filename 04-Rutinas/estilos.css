@@ -1,5 +1,48 @@
-.TextoMisionUno {
-	font-family: roboto;
-	font-size: 25px;
-	color: #ff6f00;
+.background{
+	background-color: #f35539;
+}
+
+.rutinas{
+	display:flex;
+	flex-direction: column;
+
+}
+.day{
+	background-color: #060A10;
+	border-radius: 5px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	color:#E7CFA0;
+	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+}
+.card{
+	background-color: #f35539;
+	color: #E7CFA0;
+
+}
+.title{
+	color:#E7CFA0;
+	display: inline-block;
+}
+.subtitle{
+	background-color: #060A10;
+	display:inline-block;
+	margin-left: 30px;
+	border-radius: 15px;
+	color:#E7CFA0;
+}
+input{
+	height:25px;
+}
+.botoneslol{
+	display: flex;
+
+	justify-content: space-between;
+
+}
+#botonFinal{
+	margin-top: 60px;
+
 }
