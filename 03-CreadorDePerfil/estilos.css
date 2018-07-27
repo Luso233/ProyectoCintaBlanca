@@ -35,11 +35,11 @@ border:1px solid black;
  	width: 80px;
  	align-self: flex-end;
  }
- 
- 
  .izquierda{
  	display: flex;
  	flex-direction: column;
  	justify-content: space-between;
  }
+
+
 
